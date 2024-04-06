@@ -29,4 +29,6 @@ I render the scene as it is and also render a cryptomatte pass, which captures t
 
 Finally, I record the total number of objects in the scene and the number of visible objects in a CSV file. I repeat this process for as many iterations as needed to create my custom dataset.
 
+The output is .png raw images and .exr masks
+
 If you toggle system console in blender, you can also see prints of how much time has passed and estimated time to copletion
