@@ -1,7 +1,7 @@
 # Synthetic Dataset: Metal Nuts Randomly Scattered in a Box
 
 ## Description
-This synthetic dataset aims to address the problem of detecting metal nuts randomly scattered in a box, particularly focusing on identifying nuts that lie relatively flat. The dataset is designed to aid in the development and evaluation of algorithms for automated nut detection in industrial settings.
+In this repository are sripts used to create a sythetic datset in blender for a computer vision task of detecting metal nuts that can be grabbed by a robot hand among other metal nuts scattered in a box
 
 ## Example samples from the dataset
 *Example image 1*
