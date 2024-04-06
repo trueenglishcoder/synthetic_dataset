@@ -16,14 +16,17 @@ This synthetic dataset aims to address the problem of detecting metal nuts rando
 *Example Mask 2*
 ![Example Mask 2](example_mask_0100.png)
 
-## Other Sections
-1. **Dataset Structure:** Details about the dataset's organization, including file formats and directory structure.
-2. **Data Generation Process:** Explanation of how the synthetic data was generated, including parameters and constraints.
-3. **Annotation Guidelines:** Guidelines for annotating the dataset, including label definitions and annotation formats.
-4. **Evaluation Metrics:** Metrics used for evaluating algorithms trained on this dataset, such as precision, recall, and F1 score.
-5. **Baseline Models:** Description of any baseline models or algorithms used for initial evaluation or comparison.
-6. **Usage Examples:** Examples demonstrating how to load and utilize the dataset for training and testing machine learning models.
-7. **Contributing:** Guidelines for contributing to the dataset, including how to report issues or suggest improvements.
-8. **License:** Information about the licensing terms for the dataset and any usage restrictions.
-9. **Acknowledgments:** Acknowledgment of individuals or organizations that contributed to the creation of the dataset.
-10. **Contact:** Contact information for the maintainers of the dataset for inquiries or collaboration opportunities.
+## Method of creating the dataset
+
+
+In Blender, I use Python scripts you can find in the repository to create an array of copies of objects, in my case metal nuts. These copies are randomly positioned above a background, in my case a cardboard box. Then, I use the built-in physics engine to simulate the nuts falling into the box and settling into place.
+
+Next, I randomly set the position and power of the light source, and I also randomly position the camera. In this particular case the camera's rotation always points it towards the center of the scene (0,0,0).
+
+After setting up the scene, I identify which objects are visible using ray casting to points on the object. In my cas, visible objects are those not obscured by others and lying within a certain angle threshold.
+
+I render the scene as it is and also render a cryptomatte pass, which captures the masks only for the visible objects.
+
+Finally, I record the total number of objects in the scene and the number of visible objects in a CSV file. I repeat this process for as many iterations as needed to create my custom dataset.
+
+If you toggle system console in blender, you can also see prints of how much time has passed and estimated time to copletion
