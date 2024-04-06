@@ -23,7 +23,7 @@ In Blender, I use Python scripts you can find in the repository to create an arr
 
 Next, I randomly set the position and power of the light source, and I also randomly position the camera. In this particular case the camera's rotation always points it towards the center of the scene (0,0,0).
 
-After setting up the scene, I identify which objects are visible using ray casting to points on the object. In my cas, visible objects are those not obscured by others and lying within a certain angle threshold.
+After setting up the scene, I identify which objects are visible using ray casting to points on the object. In my case, visible objects are those not obscured by others and lying within a certain angle threshold.
 
 I render the scene as it is and also render a cryptomatte pass, which captures the masks only for the visible objects.
 
