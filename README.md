@@ -5,8 +5,16 @@ This synthetic dataset aims to address the problem of detecting metal nuts rando
 
 ## Example Images
 ![Example Image 1](example_image_0550.png)
+*Example image 1*
 
 ![Example Mask 1](example_mask_0550.png)
+*Example Mask 1*
+
+![Example Image 2](example_image_0100.png)
+*Example image 2*
+
+![Example Mask 2](example_mask_0100.png)
+*Example Mask 2*
 
 ## Other Sections
 1. **Dataset Structure:** Details about the dataset's organization, including file formats and directory structure.
