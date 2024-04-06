@@ -4,11 +4,9 @@
 This synthetic dataset aims to address the problem of detecting metal nuts randomly scattered in a box, particularly focusing on identifying nuts that lie relatively flat. The dataset is designed to aid in the development and evaluation of algorithms for automated nut detection in industrial settings.
 
 ## Example Images
-![Example Image 1](example_image1.jpg)
-*Caption: Illustration of metal nuts scattered in a box.*
+![Example Image 1](example_image_0550.png)
 
-![Example Image 2](example_image2.jpg)
-*Caption: Close-up view of nuts lying flat within the box.*
+![Example Mask 1](example_mask_0550.png)
 
 ## Other Sections
 1. **Dataset Structure:** Details about the dataset's organization, including file formats and directory structure.
