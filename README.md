@@ -32,3 +32,7 @@ Finally, I record the total number of objects in the scene and the number of vis
 The output is .png raw images and .exr masks
 
 If you toggle system console in blender, you can also see prints of how much time has passed and estimated time to completion
+
+#Where to find
+
+You can find the dataset on huggingface by name 'Trueenglishcoder/synthetic-dataset-scattered-nuts'
