@@ -36,3 +36,5 @@ If you toggle system console in blender, you can also see prints of how much tim
 ## Where to find
 
 You can find the dataset on huggingface by name 'Trueenglishcoder/synthetic-dataset-scattered-nuts'
+
+Additionaly you can find maskrcnn_resnet50_fpn model I finetuned on this dataset on huggingface by name 'Trueenglishcoder/object-detection-synthetic-dataset'
