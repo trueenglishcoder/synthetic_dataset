@@ -34,6 +34,7 @@ The output is .png raw images and .exr masks
 If you toggle system console in blender, you can also see prints of how much time has passed and estimated time to completion
 
 ## Where to find
+In total i generated 1000 samples.
 
 You can find the dataset on huggingface by name 'Trueenglishcoder/synthetic-dataset-scattered-nuts'
 
