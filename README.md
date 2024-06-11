@@ -36,6 +36,4 @@ If you toggle system console in blender, you can also see prints of how much tim
 ## Where to find
 In total I generated 1000 samples.
 
-You can find the dataset on huggingface by name 'Trueenglishcoder/synthetic-dataset-scattered-nuts'
-
-Additionaly you can find maskrcnn_resnet50_fpn model I finetuned on this dataset on huggingface by name 'Trueenglishcoder/object-detection-synthetic-dataset'
+You can find the dataset as well as finetuned maskrcnn_resnet50_fpn and YOLOv8m-seg models on huggingface at Trueenglishcoder
